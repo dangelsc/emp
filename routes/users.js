@@ -3,7 +3,11 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
+  res.send('este es el original y no esta copiado');
+});
+
+router.get('/origen', function(req, res, next) {
+  res.send('este es una nueva ruta');
 });
 router.get('/nuevo', function(req, res, next) {
   res.send('este es una nueva ruta1');
