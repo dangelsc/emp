@@ -17,4 +17,16 @@ router.get('/origen', function(req, res, next) {
 >>>>>>> ff9cbfd3ffb316f4779ef562aab528ff178c2688
 });
 
+router.get('/nuevo', function(req, res, next) {
+  res.send('este es una nueva ruta1');
+});
+
+router.get('/nuevo2', function(req, res, next) {
+  res.send('este es una nueva ruta11');
+});
+
+router.get('/nuevo3', function(req, res, next) {
+  res.send('este es una nueva ruta111');
+});
+
 module.exports = router;
